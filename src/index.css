@@ -1,14 +1,93 @@
-body {
-  margin: 0;
-  padding: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+
+.app-container {
+    margin: 0;
+    padding-top: 10vh;
+    box-sizing: border-box;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
+html {
+    color: #2e2e2e;
+    font-family: "Lato", 'Arial', sans-serif;
+    font-weight: 300;
+    font-size: 25px;
+    text-rendering: optimizeLegibility;
+    background-color: #efefef;
 }
+
+.list-box {
+    background-color: white;
+    margin: 0 20vw;
+}
+
+.row {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+h1 {
+    text-align: center;
+    margin: 0 20vw;
+    text-align: center;
+    padding-top: 10vh;
+    box-sizing: border-box;
+    background-color: white;
+    font-size: 250%;
+    font-weight: 400;
+    color: #051276;
+    text-transform: uppercase;
+    word-spacing: 3px;
+    letter-spacing: 1px;
+    padding: 2vh 0;
+    border-bottom: solid rgba(113, 113, 113, 0.86) 1px;
+}
+
+.list-element {
+
+    padding: 0 0 0 2vw;
+    border-bottom: solid #e2e2e2 1px;
+}
+
+.list-element-start {
+    text-align: center;
+    padding: 2vh 0 2vh 2vw;
+    border-bottom: solid #e2e2e2 1px;
+}
+
+.form {
+    margin-top: 8vh;
+    text-align: center;
+    padding-left: 3vw;
+}
+
+label {
+    margin-right: 2vw;
+}
+
+input[type=text] {
+    border: solid #051276 2px;
+    width: 30%;
+    height: 5vh;
+    padding-left: 1vw;
+    font-size: 100%;
+
+}
+
+.checkbox-label input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+}
+
+.checkbox-label .checkbox-custom {
+    position: absolute;
+    height: 24px;
+    width: 24px;
+    background-color: transparent;
+    border: 1px solid #051276;
+} 
+
+
+
+
+
+
